@@ -1,0 +1,130 @@
+.tableheader{
+    border-bottom: 2px solid gray;
+   }
+
+   .container{
+    margin-top: 40px;
+    margin-left: 40px;
+    height: 429px;
+    width: 515px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+   }
+   
+   h1{
+    font-family: 'Work Sans', sans-serif;
+font-size: 32px;
+font-weight: 700;
+line-height: 37.54px;
+text-align: left;
+
+   }
+
+   .text{
+    font-family: Fira Sans;
+font-size: 14px;
+font-weight: 700;
+line-height: 18.75px;
+text-align: left;
+
+   }
+
+   .table1{
+    height: 98px;
+    width: 515px;   
+    margin-bottom: 20PX;
+   }
+   .table2{
+    height: 107px;
+    width: 515px;
+    color:  #111118;
+    margin-bottom: 20PX;
+    
+
+   }
+   .bill{
+    font-family: Fira Mono;
+font-size: 12px;
+font-weight: 500;
+line-height: 16.07px;
+text-align: left;
+color: #111118 ;
+
+   }
+
+   .table3{
+    height: 164px;
+    width: 515px;
+    margin-bottom: 20PX;
+   }
+  
+   .table4{
+    height: 181px;
+    width: 515px;
+    padding: 16px 40px 16px 40px;
+    top: 489px;
+    margin-bottom: 20PX;
+   }
+   
+
+    table {
+        width: 100%;
+        border-collapse: collapse; /* Merges adjacent borders */
+    }
+    th, td {
+        padding: 5px;
+        text-align: left;
+        border-left: none;  /* Vertical border for cells */
+        border-right: none; /* Vertical border for cells */
+    }
+    th, td:first-child {
+        border-left: none;  /* Remove left border for the first cell */
+    }
+    th, td:last-child {
+        border-right: none;  /* Remove right border for the last cell */
+    }
+
+
+
+
+
+    .btn {
+        width: 255px;
+        height: 25px;
+        background-color: #284B63;; /* Transparent background */
+        color: #fff; /* Text color */
+        border: none; /* No border */
+        padding: 5px 10px; /* Padding for button */
+        font-size: 16px; /* Font size */
+        text-decoration: none; /* Remove default underline */
+        border-bottom: 2px solid #fcf4f4; /* Underline */
+        cursor: pointer; /* Cursor style */
+    }
+
+
+  
+
+    .footer {
+        background-color:  #053858; /* Background color for the footer */
+        color: #fff; /* Text color for the footer */
+        text-align: center; /* Text alignment */
+        padding: 10px 40px 10px 40px; /* Padding for top and bottom */
+        position: relative; /* Position relative for absolute positioning */
+    }
+    .footer-content {
+        padding-bottom: 10px; /* Add padding at the bottom of the content */
+        margin-bottom: 10px; /* Add margin at the bottom of the content */
+        position: relative; /* Position relative for absolute positioning */
+    }
+    .footer-content::before {
+        content: ''; /* Create a pseudo-element */
+        position: absolute; /* Position absolutely */
+        top: 0; /* Positioned at the top */
+        left: 0; /* Positioned at the left */
+        width: 100%; /* Full width */
+        height: 1px; /* Height of the underline */
+        background-color: #fff; /* Color of the underline */
+    }
